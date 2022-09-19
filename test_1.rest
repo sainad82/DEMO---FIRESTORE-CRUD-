@@ -1,0 +1,15 @@
+### creting a doc
+POST http://localhost:8383/create
+Content-Type: application/json
+
+{
+    "email":"abc@gmail.com",
+    "firstName":"sai",
+    "lastName":"kondaveeti"
+}
+
+### reading the documents
+GET http://localhost:8383/read/all
+
+# read a doc
+GET http://localhost:8383/read/xANxTXAj4yQrgVOSr1Nn
